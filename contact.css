@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: black;
+    background-image: url("/img/img\ logos/White logo - no background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20px 100px;
+    
+    
+}
+h1{
+    text-transform: uppercase;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    color: rgb(144, 205, 234);
+}
+
+form{
+    border: 2px solid;
+    width: 400px;
+    height: 400px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(214, 219, 226);
+    border-radius: 8px;
+    border: none;
+    
+}
+label{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: capitalize;
+}
+input{
+    width: 90%;
+    height: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: none;
+}
+select{
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    text-transform: capitalize;
+    border-radius: 8px;
+    border: none;
+}
+textarea{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+button{
+    background-color: rgb(6, 81, 6);
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    color: aliceblue;
+    margin: 10px;
+    transition: 0.6s ease;
+}
+button:hover{
+    opacity: 0.7;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+
